@@ -1,0 +1,60 @@
+@mixin anclas {
+    text-decoration: none;
+    color: $color-fuentes-secundario;
+    font-size: 3rem;
+    
+}
+
+.encabezado{
+    display:flex;
+    justify-content: space-between;
+
+    .tituloPrincipal{
+        @include anclas;
+        i{
+            font-size: 4rem;
+            text-align: right;
+            color: $color-fuentes-secundario
+        }
+
+        h1{
+            display: inline-block;
+            color: $color-fuentes-secundario;
+            font-size: 3rem;
+            font-weight: 750;
+        }
+
+        ul{
+            display: flex;
+            list-style-type: none;
+
+            li{
+                margin-right: 3rem;
+
+                a{
+                    @include anclas;
+                    transition: all 0.3s ease;
+
+                    &:hover {
+                        color: $color-fuentes;
+                    }
+                
+                }
+            }
+        }
+    }
+}
+
+.menu {
+    list-style-type: none;
+    color: rgb(19, 5, 5);
+    list-style-type: none;
+    margin-right: 3rem;
+  }
+
+  body{
+    background: #00416A; 
+    background: -webkit-linear-gradient(to right, #E4E5E6, #00416A); 
+    background: linear-gradient(to right, #E4E5E6, #00416A);
+}
+

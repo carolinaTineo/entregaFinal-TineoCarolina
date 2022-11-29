@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+html {
+  font-size: 62, 5%;
+}
+html body {
+  background-color: linear-gradient(to right, #E4E5E6, #00416A);
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+}
+.encabezado .tituloPrincipal {
+  text-decoration: none;
+  color: rgb(25, 7, 105);
+  font-size: 3rem;
+}
+.encabezado .tituloPrincipal i {
+  font-size: 4rem;
+  text-align: right;
+  color: rgb(25, 7, 105);
+}
+.encabezado .tituloPrincipal h1 {
+  display: inline-block;
+  color: rgb(25, 7, 105);
+  font-size: 3rem;
+  font-weight: 750;
+}
+.encabezado .tituloPrincipal ul {
+  display: flex;
+  list-style-type: none;
+}
+.encabezado .tituloPrincipal ul li {
+  margin-right: 3rem;
+}
+.encabezado .tituloPrincipal ul li a {
+  text-decoration: none;
+  color: rgb(25, 7, 105);
+  font-size: 3rem;
+  transition: all 0.3s ease;
+}
+.encabezado .tituloPrincipal ul li a:hover {
+  color: black;
+}
+
+.menu {
+  list-style-type: none;
+  color: rgb(19, 5, 5);
+  list-style-type: none;
+  margin-right: 3rem;
+}
+
+body {
+  background: #00416A;
+  background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);
+  background: linear-gradient(to right, #E4E5E6, #00416A);
+}
+
+footer {
+  font-size: 1, 5rem;
+  text-align: center;
+  background-color: rgb(196, 238, 255);
+  text-decoration: overline;
+  padding-top: 6rem;
+}
+
+.formu {
+  box-sizing: border-box;
+  font-weight: 5rem;
+  font-size: 1.5rem;
+}
+.formu h2 {
+  font-size: 3rem;
+  background-color: rgb(9, 170, 116);
+}
+
+.fpe h2 {
+  font-size: 3rem;
+  text-align: center;
+  font-family: cursive;
+}
+
+.form {
+  margin: auto;
+  width: 90%;
+  max-width: 400px;
+  padding: 3rem;
+  border-radius: 10px;
+  box-shadow: 2px 5px -5px;
+  text-align: center;
+}
+.form textarea {
+  margin: 1rem;
+  text-align: center;
+  padding: auto;
+}
+
+.for {
+  font-weight: 400;
+  justify-content: center;
+  width: 30rem;
+  padding: 10em;
+  text-align: center;
+}
+.for .tituloPrincipal {
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+  padding: 0%;
+}
+
+/*# sourceMappingURL=estilo.css.map */
